@@ -53,22 +53,23 @@ Food Recipe Share is a platform where users can share and discover food recipes.
 
 ## About The Project
 
-<img src="readme_images/ui.png" alt="Logo" width="500" >
+<img src="readme_images/u.png" alt="Logo" width="500" >
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 - [Jetpack Compose](https://developer.android.com/jetpack/compose)
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 
-## Roadmap
+## Functionalities
 
-- [ ] Feature 1
-- [ ] Feature 2
+- [ ] Email notification system by API
+- [ ] Dynamic color / Color from a wallpaper
 - [ ] Feature 3
   - [ ] Nested Feature
 
