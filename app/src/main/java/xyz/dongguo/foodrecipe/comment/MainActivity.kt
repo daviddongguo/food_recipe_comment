@@ -3,7 +3,9 @@ package xyz.dongguo.foodrecipe.comment
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -35,6 +37,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
+    Box{
+        Card(
+            modifier = Modifier.fillMaxSize()
+        )
+        {
+            Text("This is a card")
+        }
+    }
 }
 
 @Preview(showBackground = true)
